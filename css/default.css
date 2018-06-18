@@ -359,7 +359,7 @@ body {
 }
 
 .about .middle .content.right {
-    background-image: url("../assets/images/network-1911678_1280.png");
+    background-image: url("../assets/svg/network.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 60%;
@@ -378,6 +378,7 @@ body {
     width: 200px;
     display: block;
     /* transform: rotate(90deg); */
+    display: none;
 }
 
 @media (max-width: 600px) {

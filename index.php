@@ -122,7 +122,7 @@
                         </p>
                     </div>
                     <div class="content right">
-                        <img class="brand" src="assets/svg/logoinfocorplonga-blue.svg" title="Infocorp Brand"
+                        <img class="brand" src="assets/svg/network.svg" title="Infocorp Brand"
                              alt="Infocorp Brand">
                     </div>
                 </div>
