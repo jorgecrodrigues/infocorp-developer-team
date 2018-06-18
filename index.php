@@ -9,45 +9,37 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700" rel="stylesheet">
     <!-- Jquery 3.3.1 -->
     <script src="jquery-3.3.1/jquery-3.3.1.min.js"></script>
-
     <!-- Owl Carousel -->
     <!-- Script -->
     <script src="owl-carousel-2-2.3.4/dist/owl.carousel.min.js"></script>
-
-    <!-- Folha de estilo padrão do para as paginas -->
+    <!-- Folha de estilo -->
     <link href="css/default.css" rel="stylesheet"/>
+    <link href="css/components.css" rel="stylesheet"/>
 </head>
 <body>
-
-<!-- Mouse -->
-<div class="xtop"></div>
-<div class="yleft"></div>
-
-<!-- featured -->
-<div id="featured" class="box featured">
-    <div class="middle">
-        <div class="content">
-            <div class="dbox">
-                <div class="box">
-                    <div class="middle">
-                        <div class="content">
-                            <img class="brand" src="assets/svg/logoinfocorplonga.svg" title="Infocorp brand"
-                                 alt="Infocorp brand">
-                            <h1 class="title text-green">
-                                Developer team
-                                <span class="w">|</span>
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+<!-- Featured | BEM CSS PATTERN-->
+<div id="featured" class="pbox pfeatured">
+    <!-- Mouse -->
+    <div class="xtop"></div>
+    <div class="yleft"></div>
+    <!-- End mouse -->
+    <div class="pbox__middle">
+        <div class="pbox__middle--content">
+            <div class="pfeatured__box">
+                <img class="pfeatured__box--brand" src="assets/svg/logoinfocorplonga.svg" title="Infocorp"
+                     alt="Infocorp brand">
+                <h1 class="pfeatured__box--line text-green">
+                    Developer team <span class="w">|</span>
+                </h1>
             </div>
         </div>
     </div>
-    <div class="bottom">
-        <div class="content">
-            <p class="down">
-                <a href="#projects" class="link" title="Veja nosso projetos">
-                    <img class="arrow-down" src="assets/svg/arrow-down-green.svg" alt="Arrow down">
+    <div class="pbox__bottom">
+        <div class="pbox__bottom--content">
+            <p class="pfeatured__pdown">
+                <a href="#projects" class="pfeatured__pdown--link" title="Veja nossos projetos">
+                    <img class="pfeatured__pdown--icon" src="assets/svg/arrow-one.svg"
+                         alt="Veja nossos projetos">
                 </a>
             </p>
         </div>
@@ -58,6 +50,18 @@
 <div id="projects" class="box projects">
     <div class="top">
         <div class="content">
+            <ul class="pnavbar-top">
+                <li class="pnavbar-top__up">
+                    <a class="pnavbar-top__up--link" href="#featured">
+                        <img class="pnavbar-top__up--icon" src="assets/svg/up-arrow-green.svg" alt="Arrow up">
+                    </a>
+                </li>
+                <li class="pnavbar-top__groups">
+
+                </li>
+            </ul>
+
+
             <ul class="navbar">
                 <li class="up">
                     <a href="#featured" class="link">
@@ -74,8 +78,7 @@
         <div class="content">
             <div class="hbox">
                 <div id="owl" class="owl">
-                    <?php $projects = array_diff(scandir('test'), array('.', '..', 'index.php'
-)); ?>
+                    <?php $projects = array_diff(scandir('test'), array('.', '..', 'index.php')); ?>
                     <?php foreach ($projects as $project): ?>
                         <p>
                             <a class="link" href="<?php echo "test/$project" ?>"><?php echo "$project" ?></a>
@@ -94,7 +97,7 @@
                 </li>
                 <li class="down">
                     <a href="#about" class="link" title="Saiba + sobre nós">
-                        <img class="arrow-down" src="assets/svg/down-arrow-green.svg" alt="Arrow up">
+                        <img class="arrow-down" src="assets/svg/arrow-two.svg" alt="Arrow up">
                     </a>
                 </li>
             </ul>
@@ -139,7 +142,7 @@
 </div>
 
 <!-- Ops -->
-<div class="danger">
+<!--<div class="danger">
     <div id="projects" class="box">
         <div class="middle">
             <div class="content">
@@ -149,7 +152,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Default script -->
 <script src="js/default.js"></script>

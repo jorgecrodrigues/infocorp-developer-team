@@ -6,7 +6,7 @@
     j(window.document).ready(function () {
 
         // HAHA, O QUE TU PROCURA POR AQUI ?
-        j(document.body).mousemove(function (event) {
+        j("#featured").mousemove(function (event) {
             j('.xtop').css({'left': event.pageX - 4});
             j('.yleft').css({'top': event.pageY - 4});
         });
