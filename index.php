@@ -74,7 +74,8 @@
         <div class="content">
             <div class="hbox">
                 <div id="owl" class="owl">
-                    <?php $projects = array_diff(scandir('test'), array('.', '..')); ?>
+                    <?php $projects = array_diff(scandir('test'), array('.', '..', 'index.php'
+)); ?>
                     <?php foreach ($projects as $project): ?>
                         <p>
                             <a class="link" href="<?php echo "test/$project" ?>"><?php echo "$project" ?></a>
