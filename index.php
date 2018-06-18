@@ -110,11 +110,10 @@
                         <h1 class="">O TEAM DEV</h1>
                         <p>
                             O nosso time é formado por alunos dos cursos de Ciência da Computação e Sistema de
-                            Informação da Universidade Federal de Mato Grosso.
-                            O que fazemos? Desenvolvemos sistemas para você e sua empresa. Somos apaixonados pelo que
-                            fazemos, no ritmo de sempre aprender e compartilhar conhecimento além de experiência.
-                            O objetivo é simples! Aplicar o conhecimento adquirido, com isso, ir para o mercado um pouco
-                            mais preparado.
+                            Informação da Universidade Federal de Mato Grosso. O que fazemos? Desenvolvemos sistemas
+                            para você e sua empresa. Somos apaixonados pelo que fazemos, no ritmo de sempre aprender e
+                            compartilhar conhecimento além de experiência. O objetivo é simples, Aplicar o conhecimento
+                            adquirido e mudar a vida das pessoas!
                         </p>
                         <p>
                             <a class="link" href="#featured">Voltar</a>
