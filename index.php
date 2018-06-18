@@ -47,57 +47,53 @@
 </div>
 
 <!-- projects -->
-<div id="projects" class="box projects">
-    <div class="top">
-        <div class="content">
+<div id="projects" class="pbox pprojects">
+    <div class="pbox__top">
+        <div class="pbox__top--content">
             <ul class="pnavbar-top">
                 <li class="pnavbar-top__up">
                     <a class="pnavbar-top__up--link" href="#featured">
-                        <img class="pnavbar-top__up--icon" src="assets/svg/up-arrow-green.svg" alt="Arrow up">
+                        <img class="pnavbar-top__up--icon" src="assets/svg/arrow-two.svg" alt="Arrow up">
                     </a>
                 </li>
                 <li class="pnavbar-top__groups">
-
-                </li>
-            </ul>
-
-
-            <ul class="navbar">
-                <li class="up">
-                    <a href="#featured" class="link">
-                        <img class="arrow-up" src="assets/svg/up-arrow-green.svg" alt="Arrow up">
-                    </a>
-                </li>
-                <li class="title">
-                    PROJETOS, <span class="subtitle">AQUI ESTÃO NOSSOS PROJETOS<br/> EM FASE DE TESTE.</span>
+                    <p class="pnavbar-top__groups--title">
+                        PROJETOS,
+                        <span class="pnavbar-top__groups--subtitle">
+                            AQUI ESTÃO NOSSOS PROJETOS<br/> EM FASE DE TESTE.
+                        </span>
+                    </p>
                 </li>
             </ul>
         </div>
     </div>
-    <div class="middle">
-        <div class="content">
-            <div class="hbox">
+    <div class="pbox__middle">
+        <div class="pbox__middle--content">
+            <div class="o">
                 <div id="owl" class="owl">
                     <?php $projects = array_diff(scandir('test'), array('.', '..', 'index.php')); ?>
                     <?php foreach ($projects as $project): ?>
-                        <p>
-                            <a class="link" href="<?php echo "test/$project" ?>"><?php echo "$project" ?></a>
-                        </p>
+                        <p><a href="<?php echo "test/$project" ?>"><?php echo "$project" ?></a></p>
                     <?php endforeach; ?>
                 </div>
             </div>
         </div>
     </div>
-    <div class="bottom">
-        <div class="content">
-            <ul class="navbar">
-                <li class="title">
-                    INFOCORP DEVELOPER TEAM. <span class="subtitle">Quer saber um pouco + sobre nós?</span> <span
-                            class="w">_</span>
+    <div class="pbox__bottom">
+        <div class="pbox__bottom--content">
+            <ul class="pnavbar-bottom">
+                <li class="pnavbar-bottom__groups">
+                    <p class="pnavbar-bottom__groups--title">
+                        INFOCORP DEVELOPER TEAM.
+                        <span class="pnavbar-bottom__groups--subtitle">
+                            Quer saber um pouco + sobre nós?
+                        </span>
+                        <span class="w">_</span>
+                    </p>
                 </li>
-                <li class="down">
-                    <a href="#about" class="link" title="Saiba + sobre nós">
-                        <img class="arrow-down" src="assets/svg/arrow-two.svg" alt="Arrow up">
+                <li class="pnavbar-bottom__down">
+                    <a class="pnavbar-bottom__down--link" href="#featured">
+                        <img class="pnavbar-bottom__down--icon" src="assets/svg/arrow-two.svg" alt="Arrow up">
                     </a>
                 </li>
             </ul>
