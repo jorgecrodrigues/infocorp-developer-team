@@ -3,7 +3,7 @@
   "short_name": "Infocorp",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#fff",
+  "theme_color": "#000",
   "background_color": "#fff",
   "description": "Time de desenvolvimento da Infocorp.",
   "icons": [
