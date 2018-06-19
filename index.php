@@ -12,9 +12,18 @@
     <!-- Owl Carousel -->
     <!-- Script -->
     <script src="owl-carousel-2-2.3.4/dist/owl.carousel.min.js"></script>
-    <!-- Folha de estilo -->
-    <link href="css/default.css" rel="stylesheet"/>
+    <!-- Componentes -->
     <link href="css/components.css" rel="stylesheet"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121056174-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121056174-1');
+    </script>
 </head>
 <body>
 <!-- Featured | BEM CSS PATTERN-->

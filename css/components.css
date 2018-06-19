@@ -4,7 +4,22 @@
 
 html,
 body {
+    margin: 0;
     height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
 }
 
 .xtop,
