@@ -28,7 +28,7 @@
             <div class="pfeatured__box">
                 <img class="pfeatured__box--brand" src="assets/svg/logoinfocorplonga.svg" title="Infocorp"
                      alt="Infocorp brand">
-                <h1 class="pfeatured__box--line text-green">
+                <h1 class="pfeatured__box--line">
                     Developer team <span class="w">|</span>
                 </h1>
             </div>
@@ -92,7 +92,7 @@
                     </p>
                 </li>
                 <li class="pnavbar-bottom__down">
-                    <a class="pnavbar-bottom__down--link" href="#featured">
+                    <a class="pnavbar-bottom__down--link" href="#about">
                         <img class="pnavbar-bottom__down--icon" src="assets/svg/arrow-two.svg" alt="Arrow up">
                     </a>
                 </li>
@@ -101,54 +101,40 @@
     </div>
 </div>
 
-<div id="about" class="box about">
-    <div class="middle">
-        <div class="content">
-            <div class="box">
-                <div class="middle">
-                    <div class="content left">
-                        <h1 class="">O TEAM DEV</h1>
-                        <p>
-                            O nosso time é formado por alunos dos cursos de Ciência da Computação e Sistema de
+<div id="about" class="pbox pabout">
+    <div class="pbox__middle">
+        <div class="pbox__middle--content">
+
+            <div class="pbox">
+                <div class="pbox__middle">
+                    <div class="pbox__middle--content pabout__pbox--left">
+                        <h1 class="pabout__pbox--title">O TEAM DEV</h1>
+                        <p class="pabout__pbox--text">
+                            O nosso time é formado por alunos dos cursos de Ciência da Computação e Sistemas de
                             Informação da Universidade Federal de Mato Grosso. O que fazemos? Desenvolvemos sistemas
                             para você e sua empresa. Somos apaixonados pelo que fazemos, no ritmo de sempre aprender e
-                            compartilhar conhecimento além de experiência. O objetivo é simples, Aplicar o conhecimento
+                            compartilhar conhecimento, além de experiência. O objetivo é simples: aplicar o conhecimento
                             adquirido e mudar a vida das pessoas!
                         </p>
-                        <p>
-                            <a class="link" href="#featured">Voltar</a>
-                            <a class="link" href="#projects">Ir para projetos</a>
+                        <p class="pabout__pbox--links">
+                            <a class="pabout__pbox--link" href="#featured">Voltar</a>
+                            <a class="pabout__pbox--link" href="#projects">Ir para projetos</a>
                         </p>
                     </div>
-                    <div class="content right">
-                        <img class="brand" src="assets/svg/network.svg" title="Infocorp Brand"
-                             alt="Infocorp Brand">
-                    </div>
+                    <div class="pbox__middle--content pabout__pbox--right"></div>
                 </div>
             </div>
+
         </div>
     </div>
-    <div class="bottom">
-        <div class="content">
-            <p class="infocorp">
+    <div class="pbox__bottom">
+        <div class="pbox__bottom--content">
+            <p class="pabout__infocorp">
                 <b>INFOCORP</b>, Empresa Júnior do Instituto de Computação, UFMT <span class="w">|</span>
             </p>
         </div>
     </div>
 </div>
-
-<!-- Ops -->
-<!--<div class="danger">
-    <div id="projects" class="box">
-        <div class="middle">
-            <div class="content">
-                A resolução da sua tela é inadequada para esta página.
-                <br/>
-                Min (450 X 500)
-            </div>
-        </div>
-    </div>
-</div>-->
 
 <!-- Default script -->
 <script src="js/default.js"></script>

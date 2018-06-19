@@ -48,9 +48,10 @@ body {
 /* Owl Carousel */
 
 .o {
-    padding: 1px 0 1px 20px;
+    padding: 1px 0 0px 20px;
     width: 600px;
     border-left: 4px solid black;
+    border-bottom: 2px solid black;
     display: inline-block;
 }
 
@@ -60,9 +61,11 @@ body {
 
 .o .owl .owl-stage-outer {
     margin: 0;
+    overflow: hidden;
 }
 
 .o .owl .owl-stage-outer .owl-stage .owl-item {
+    text-transform: uppercase;
     display: inline-block;
 }
 
@@ -94,14 +97,14 @@ body {
 }
 
 .o .owl .owl-dots .owl-dot {
-    margin: 5px 10px;
+    margin: 0 10px;
     padding: 0;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border: 3px solid;
-    border-radius: 100%;
     background-color: white;
     outline: none;
+    transition: border-color 0.2s ease-in-out;
 }
 
 .o .owl .owl-dots .owl-dot:hover {
@@ -109,6 +112,8 @@ body {
 }
 
 .o .owl .owl-dots .owl-dot.active {
+    width: 30px;
+    height: 30px;
     border-color: green;
 }
 
@@ -208,7 +213,7 @@ body {
 /* The navbar top component */
 /* BEM PATTERN - block, element, modifier  */
 .pnavbar-top {
-    margin: 0;
+    margin: 10px 0 0 0;
     padding: 0;
     width: 100%;
     display: table;
@@ -277,7 +282,7 @@ body {
 /* The navbar bottom component */
 /* BEM PATTERN - block, element, modifier  */
 .pnavbar-bottom {
-    margin: 0;
+    margin: 0 0 10px 0;
     padding: 0;
     width: 100%;
     display: table;
@@ -344,7 +349,6 @@ body {
     }
 }
 
-/* The brand component */
 /* BEM PATTERN - block, element, modifier  */
 
 /* Featured */
@@ -365,6 +369,7 @@ body {
 .pfeatured .pfeatured__box--line {
     margin: 4px 0;
     font-size: 3em;
+    color: #43A047;
 }
 
 .pfeatured .pfeatured__pdown {
@@ -438,5 +443,138 @@ body {
 
     .pfeatured .pfeatured__pdown--link {
         width: 40px;
+    }
+}
+
+/* About */
+
+.pabout .pabout__pbox--title {
+    margin: 0;
+    font-size: 2em;
+}
+
+.pabout .pabout__pbox--text {
+    font-size: 0.8em;
+}
+
+.pabout .pabout__pbox--link {
+    margin-right: 20px;
+    font-size: 1em;
+}
+
+.pabout .pabout__pbox--left,
+.pabout .pabout__pbox--right {
+    width: 50%;
+}
+
+.pabout .pabout__pbox--right {
+    background-image: url(../assets/svg/network.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60%;
+}
+
+.pabout .pabout__infocorp {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* W */
+@media (max-width: 400px) {
+    .pabout .pabout__pbox--title {
+        font-size: 1em;
+    }
+
+    .pabout .pabout__pbox--text {
+        font-size: 0.2em;
+    }
+
+    .pabout .pabout__pbox--link {
+        margin-right: 20px;
+        font-size: 0.8em;
+    }
+
+    .pabout .pabout__pbox--left {
+        width: 100%;
+    }
+
+    .pabout .pabout__pbox--right {
+        display: none;
+    }
+
+    .pabout .pabout__infocorp {
+        font-size: 0.3em;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+    .pabout .pabout__pbox--title {
+        font-size: 1.1em;
+    }
+
+    .pabout .pabout__pbox--text {
+        font-size: 0.5em;
+    }
+
+    .pabout .pabout__pbox--link {
+        font-size: 1.0em;
+    }
+
+    .pabout .pabout__pbox--left {
+        width: 100%;
+    }
+
+    .pabout .pabout__pbox--right {
+        display: none;
+    }
+
+    .pabout .pabout__infocorp {
+        font-size: 0.5em;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    .pabout .pabout__pbox--title {
+        font-size: 1.3em;
+    }
+
+    .pabout .pabout__pbox--text {
+        font-size: 0.5em;
+    }
+
+    .pabout .pabout__pbox--link {
+        font-size: 1.0em;
+    }
+
+    .pabout .pabout__infocorp {
+        font-size: 0.5em;
+    }
+}
+
+/* H */
+@media (max-height: 300px) {
+    .pabout .pabout__pbox--title {
+        font-size: 1em;
+    }
+
+    .pabout .pabout__pbox--text {
+        font-size: 0.2em;
+    }
+
+    .pabout .pabout__pbox--link {
+        margin-right: 20px;
+        font-size: 0.8em;
+    }
+
+    .pabout .pabout__pbox--left {
+        width: 100%;
+    }
+
+    .pabout .pabout__pbox--right {
+        display: none;
+    }
+
+    .pabout .pabout__infocorp {
+        font-size: 0.3em;
     }
 }
