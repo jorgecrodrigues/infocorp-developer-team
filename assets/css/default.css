@@ -267,7 +267,7 @@ body {
 }
 
 .about .middle .content.right {
-    background-image: url("../assets/svg/network.png");
+    background-image: url("../svg/network.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 60%;

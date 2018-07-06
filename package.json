@@ -1,0 +1,33 @@
+{
+  "name": "infocorp-dev",
+  "version": "1.0.0",
+  "description": "Website Infocorp Developer Team",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "webpack": "^4.15.1",
+    "owl.carousel2": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgecrodrigues/infocorp-developer-team.git"
+  },
+  "keywords": [
+    "infocorp",
+    "developer",
+    "team",
+    "developer"
+  ],
+  "author": "Jorge Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgecrodrigues/infocorp-developer-team/issues"
+  },
+  "homepage": "https://github.com/jorgecrodrigues/infocorp-developer-team#readme"
+}
